@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="calculator.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <h1> Calculator</h1>
+        <div class="Calculator">
+            <input type="text" id="tex" name="display">
+            <br>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('0');">0</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('1');">1</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('2');">2</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('+');">+</button>
+            <br>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('3');">3</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('4');">4</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('5');">5</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('-');">-</button>
+            <br>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('6');">6</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('7');">7</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('8');">8</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('*');">x</button>
+            <br>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('9');">9</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="clrs();">C</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="expr();">=</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="res" onclick="display('/');">/</button>
+        </div>
+        <script src="calculator.js"></script>
+    </body>
+</html>
