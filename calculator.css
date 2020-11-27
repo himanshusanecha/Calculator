@@ -1,0 +1,14 @@
+body{
+    margin: 100px 100px 100px 420px;
+    background-color: cyan;
+}
+#res{
+    margin: 10px;
+    padding: 10px 50px 10px 50px;
+}
+#tex{
+    margin-left: 10px;
+    width: 518px;
+    height: 60px;
+    font-size: 30px;
+}
